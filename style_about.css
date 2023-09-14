@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.main-container{
+    max-width: 900px;
+    width: 80%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns:repeat(auto-fill , 435px);
+    grid-gap:30px;
+    justify-content: center;
+}
+
+.photo{
+    background-image: url('profil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 435px;
+    height: 330px;
+    box-shadow: 0px 0px 3px #272727;
+}
+
+.title{
+    font-family: 'tekturregular';
+    font-size:32px;
+    color: rgb(168, 116, 197);
+    margin-right: 286px;
+}
+
+label{
+    font-family:'astonpolizregular';
+    font-size: 17px;
+    text-shadow: 2px 2px 1px #c0b0e054;
+    color: #523f6d;
+}
+
+.desc{
+    width:400px ;
+    font-family:'titillium_weblight';
+    font-size: 14px;
+    color: #25222b;
+}
+
+.color-icon{
+    margin-left:30px;
+}
+
+.description a{
+    font-family:'titillium_weblight';
+    font-size: 17px;
+    color: #25222b;
+    /* margin-left: 112px; */
+}
+
+
+
+.contact{
+    display: flex;
+    font-family:'titillium_weblight';
+    font-size: 14px;
+    color: #25222b;
+}
+
+.description img{
+    position: inherit;
+    width: 30px;
+    height: 30px;
+}
+
+hr{
+    margin-top: -10px;
+    border:solid 1px rgb(168, 116, 197);
+}

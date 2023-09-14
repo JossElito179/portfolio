@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+    height: 70px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    color: rgb(24, 24, 24);
+    box-shadow: 0px 0px 4px black;
+}
+
+.brand-title {
+    position: relative;
+    height: 100%;
+    width:70px ;
+    background-size: cover;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #679273;
+    margin: .5rem;
+    padding: 1rem;
+    transform: translateY(0px);
+    transition-timing-function: ease-in-out;
+    transition: .5s;
+}
+
+.navbar-links li a.active , .navbar-links li a:hover {
+    text-decoration: underline;
+    color: #523f6d;
+    transform: translateY(-1px);
+    transition-timing-function: ease-in-out;
+    transition: .5s;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #6E46A6;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+        background-color: #fafafa;
+    }
+
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+        width: 100%;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+@font-face {
+    font-family: 'glossyregular';
+    src: url('./font/glossy/glossy-webfont.woff2') format('woff2'),
+         url('./font/glossy/glossy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titillium_weblight';
+    src: url('./font/titillunium/titilliumweb-light-webfont.woff2') format('woff2'),
+         url('./font/titillunium/titilliumweb-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'newyorkregular';
+    src: url('./font/newYork/newyork_personal_use-webfont.woff2') format('woff2'),
+         url('./font/newYork/newyork_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tekturregular';
+    src: url('./font/tektur/tektur-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('./font/tektur/tektur-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'astonpolizregular';
+    src: url('./font/astonpoliz/astonpoliz-webfont.woff2') format('woff2'),
+         url('./font/astonpoliz/astonpoliz-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul li a{
+    font-family: 'glossyregular';
+}
