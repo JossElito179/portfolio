@@ -1,0 +1,23 @@
+body{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-image: url('./fondprofil.jpg');
+    background-size: cover;
+}
+
+.skill-container{
+    display: grid;
+    max-width: 1300px;
+    width: 80%;
+    margin-top: 5%;
+    grid-template-columns:repeat(auto-fill,250px);
+    grid-gap:21.2px ;
+    position: relative;
+}
+
+.skills-content{
+    width: 250px;
+    height:290px ;
+    background-color: rgb(71, 61, 80);
+}

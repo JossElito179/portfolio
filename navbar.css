@@ -3,17 +3,14 @@
 }
 
 .navbar {
-    margin-top: 10px;
-    margin-left: 5%;
-    width: 90%;
-    height: 70px;
+    height: 10vh;
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #fafafa;
+    /* background-color: #1E1513; */
     color: rgb(24, 24, 24);
-    box-shadow: 0px 0px 4px black;
+    /* box-shadow: 0px 0px 4px rgb(233, 200, 200); */
 }
 
 .brand-title {
@@ -25,6 +22,9 @@
 
 .navbar-links {
     height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .navbar-links ul {
@@ -40,7 +40,7 @@
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: #679273;
+    color: #fdd5d5;
     margin: .5rem;
     padding: 1rem;
     transform: translateY(0px);
@@ -74,7 +74,7 @@
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 1300px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -96,7 +96,7 @@
 
     .navbar-links ul li {
         text-align: center;
-        background-color: #fafafa;
+        background-color: #000000;
     }
 
 
@@ -110,27 +110,11 @@
     }
 }
 
-@font-face {
-    font-family: 'glossyregular';
-    src: url('./font/glossy/glossy-webfont.woff2') format('woff2'),
-         url('./font/glossy/glossy-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'titillium_weblight';
     src: url('./font/titillunium/titilliumweb-light-webfont.woff2') format('woff2'),
          url('./font/titillunium/titilliumweb-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'newyorkregular';
-    src: url('./font/newYork/newyork_personal_use-webfont.woff2') format('woff2'),
-         url('./font/newYork/newyork_personal_use-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -154,6 +138,24 @@
 
 }
 
+@font-face {
+    font-family: 'space_ageregular';
+    src: url('./font/space/space_age-webfont.woff2') format('woff2'),
+         url('./font/space/space_age-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nebularegular';
+    src: url('./font/nebula/nebula-regular-webfont.woff2') format('woff2'),
+         url('./font/nebula/nebula-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 ul li a{
-    font-family: 'glossyregular';
+    font-family: 'nebularegular';
 }
