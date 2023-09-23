@@ -78,6 +78,7 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        position: relative;
     }
 
     .toggle-button {
@@ -95,6 +96,7 @@
     }
 
     .navbar-links ul li {
+        position: relative;
         text-align: center;
         background-color: #000000;
     }
@@ -113,8 +115,8 @@
 
 @font-face {
     font-family: 'titillium_weblight';
-    src: url('./font/titillunium/titilliumweb-light-webfont.woff2') format('woff2'),
-         url('./font/titillunium/titilliumweb-light-webfont.woff') format('woff');
+    src: url('../font/titillunium/titilliumweb-light-webfont.woff2') format('woff2'),
+         url('../font/titillunium/titilliumweb-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -122,8 +124,8 @@
 
 @font-face {
     font-family: 'tekturregular';
-    src: url('./font/tektur/tektur-variablefont_wdthwght-webfont.woff2') format('woff2'),
-         url('./font/tektur/tektur-variablefont_wdthwght-webfont.woff') format('woff');
+    src: url('../font/tektur/tektur-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('../font/tektur/tektur-variablefont_wdthwght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -131,8 +133,8 @@
 
 @font-face {
     font-family: 'astonpolizregular';
-    src: url('./font/astonpoliz/astonpoliz-webfont.woff2') format('woff2'),
-         url('./font/astonpoliz/astonpoliz-webfont.woff') format('woff');
+    src: url('../font/astonpoliz/astonpoliz-webfont.woff2') format('woff2'),
+         url('../font/astonpoliz/astonpoliz-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -140,8 +142,8 @@
 
 @font-face {
     font-family: 'space_ageregular';
-    src: url('./font/space/space_age-webfont.woff2') format('woff2'),
-         url('./font/space/space_age-webfont.woff') format('woff');
+    src: url('../font/space/space_age-webfont.woff2') format('woff2'),
+         url('../font/space/space_age-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -149,8 +151,8 @@
 
 @font-face {
     font-family: 'nebularegular';
-    src: url('./font/nebula/nebula-regular-webfont.woff2') format('woff2'),
-         url('./font/nebula/nebula-regular-webfont.woff') format('woff');
+    src: url('../font/nebula/nebula-regular-webfont.woff2') format('woff2'),
+         url('../font/nebula/nebula-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

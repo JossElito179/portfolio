@@ -10,7 +10,7 @@ body {
     position: relative;
     overflow-x: hidden;
     background-size: cover;
-    background-image: url('./wallpaperflare.com_wallpaper\ \(8\).jpg');
+    background-image: url('../img/wallpaperflare.com_wallpaper\ \(8\).jpg');
     background-repeat: no-repeat;
 }
 
@@ -43,7 +43,7 @@ label {
 }
 
 .photo{
-    background-image: url('./be9869922abe64a30e36452f8846a891.jpg');
+    background-image: url('../img/87e5310350808c6bcd2756f9299a14a3.jpg');
     background-size: cover;
     width:378px;
     opacity: 1;

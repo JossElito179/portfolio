@@ -2,16 +2,18 @@
 <html>
     <head>
       <link rel="stylesheet" href="background_styles.css">
-      <link rel="stylesheet" href="navbar.css">
-      <link rel="stylesheet" href="./style_skills.css">
-      <script src="script.js" defer></script>
-      <title>Responsive Navbar</title>
+      <link rel="stylesheet" href="./css/navbar.css">
+      <link rel="stylesheet" href="./css/style_skills.css"/>
+      <script src="./JS/script.js" defer></script>
+      <script src="./JS/skillsAnnimation.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <title>Skills</title>
     </head>
     <body>
     
       <nav class="navbar">
         <video id="background-video" class="brand-title" autoplay loop muted poster="e.png">
-            <source src="e.mp4" type="video/mp4">
+            <source src="eb.mp4" type="video/mp4">
         </video>
         <a href="#" class="toggle-button">
           <span class="bar"></span>
@@ -23,7 +25,6 @@
             <li><a href="index.html">HOME</a></li>
             <li><a href="propos.html">ABOUT ME</a></li>
             <li><a class="active" href="skills.html">SKILLS</a></li>
-            <li><a href="#">QUALITY</a></li>
           </ul>
         </div>
       </nav>
@@ -32,12 +33,50 @@
         <div class="skill-container">
             <div class="skills-content">
                 <p>
-                    <center></center>
+                  <div class="photo-container front"></div>
                 </p>
+              <p class="title">. Front-End</p>
+              <p class="content-ph">
+                Have a skills to developpe and realise 
+                a web-site interface with html:5 ,
+                Css for all content decoration and Javascript libraries like gsap for annimation
+                and can developpe with Front-End framework like React.
+              </p>
             </div>
-            <div class="skills-content"></div>
-            <div class="skills-content"></div>
-            <div class="skills-content"></div> 
+            <div class="skills-content">
+              <p>
+                <div class="photo-container dev"></div>
+              </p>
+            <p class="title">. Dev</p>
+            <p class="content-ph">
+              Able to programming with the most popular programming languages, 
+              such as Python ,
+              Java(Spring Boot) , C#(.net mvc,desk) , Node.js , PHP and so on.
+            </p>
+            </div>
+            <div class="skills-content">
+              <p>
+                <div class="photo-container UX"></div>
+              </p>
+            <p class="title">. UX-UI</p>
+            <p class="content-ph">
+              I can design with the modern trending, 
+              and also prototypes annimations with Adobe XD,
+              Figma .I innovate and create a full interface for applications.
+            </p>
+            </div>
+            <div class="skills-content">
+              <p>
+                <div class="photo-container relation"></div>
+              </p>
+            <p class="title">. Communication</p>
+            <p class="content-ph">
+                I love talking about business and my job ,I can speak english , french and Malagasy of course.
+                I love seeing my interlocutor 
+                or smiling because I know to share my happiness.
+                
+            </p>
+            </div> 
         </div>
         </center>
 

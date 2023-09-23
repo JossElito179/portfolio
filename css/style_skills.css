@@ -1,0 +1,78 @@
+body{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-image: linear-gradient(97deg,black , #132727);
+    background-size: cover;
+}
+
+.skill-container{
+    display: grid;
+    max-width: 1300px;
+    width: 80%;
+    margin-top: 3%;
+    grid-template-columns:repeat(auto-fill,250px);
+    justify-content: center;
+    grid-gap:21.2px ;
+    position: relative;
+}
+
+.skills-content{
+    position: relative;
+    width: 250px;
+    height:450px ;
+    border-radius: 10px;
+    background-color: #2d3250;
+    transition: 0.5s;
+}
+
+.skills-content:hover{
+    transition: 0.5s;
+    transform:scale(1.1);
+}
+
+.photo-container {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin-top:-20px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.UX{
+    background-image:url('../img/design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.relation{
+    background-image:url('../img/c88b72a8667fa5472e51f3b8f2a6e634.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dev{
+    background-image:url('../img/pexels-lisa-fotios-16129705.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.front{
+    background-image:url('../img/8624f3f74d4c086d26196e730502f988.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-family: 'tektur';
+    color: #f9b17a;
+    text-decoration:overline;
+}
+
+.content-ph{
+    width: 90%;
+    font-family:'titillium_weblight';
+    font-size: 14px;
+    color: white;
+}
