@@ -95,8 +95,8 @@ hr{
     margin-top: 4%;
     margin-left: 15%;
     position: relative;
-    background-image: url('../img/cv.png');
-    background-size: cover;
+    background-image: url('../img/Joss\ Elito.png');
+    background-size: contain;
     background-repeat: no-repeat;
     width: 70%;
     height: 1400px;
