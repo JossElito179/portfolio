@@ -70,6 +70,7 @@ label {
     min-width: 200px;
     font-size: medium;
     font-weight:bolder;
+    border-radius: 30px;
     background:none;
     border: solid 2px white;
     color:  white;
@@ -85,6 +86,7 @@ label {
 
 .photo-container button::before{
     content: "";
+    border-radius: 20px;
     position: absolute;
     left: 0;
     top: 0;
