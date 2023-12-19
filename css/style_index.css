@@ -170,11 +170,11 @@ align-items: center;
 }
 
 .page_loader{
-    margin-top: -100vh;
+    margin-top: -93vh;
     position: relative;
     background: linear-gradient(to bottom right,#246996,#bd0060);
     display: flex;
-    height: 100vh;
+    height: 103vh;
     align-items: center;
     justify-content: center;
 }
