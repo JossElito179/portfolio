@@ -5,10 +5,10 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active');
 })
 
-// document.onreadystatechange = function () {
-//     var spinnerOverlay = document.querySelector('.page_loader');
+document.onreadystatechange = function () {
+    var spinnerOverlay = document.querySelector('.page_loader');
 
-//     if (document.readyState === 'complete') {
-//         spinnerOverlay.style.display = 'none';
-//     }
-// };
+    if (document.readyState === 'complete') {
+        spinnerOverlay.style.display = 'none';
+    }
+};
