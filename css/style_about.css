@@ -103,7 +103,7 @@ hr{
 }
 
 .page_loader{
-    margin-top: -120vh;
+    margin-top: -124vh;
     position: relative;
     background: linear-gradient(to bottom right,#246996,#bd0060);
     display: flex;
